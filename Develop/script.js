@@ -26,7 +26,7 @@ console.log(special)
 // add prompt for # of characters
 function writePassword() {
   var passwordLength = prompt("How many characters would you like your password to consist of? (Password must be between 8-128 characters)");
-  if (passwordLength < 8 || passwordLength > 128) {
+  if (passwordLength.length < 8 || passwordLength.length > 128) {
     alert ("Password must be between 8-128 characters.")
   }
   else {
@@ -39,6 +39,15 @@ function writePassword() {
     alert ("You must have a number, special character, uppercase letter, or a lowercase letter!");
   }
 }
+
+// only numbers password
+else if {}
+// only characters password
+else if {}
+// only uppercase password
+else if {}
+// only lowercase password
+else if {}
 
 
 // Add event listener to generate button + 'confirm''s //
