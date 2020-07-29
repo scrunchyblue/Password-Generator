@@ -11,7 +11,7 @@ var special = ['!', '@', '#', '$', '%', '^', '&', '*', '-', '_', '+', '=', '<', 
 console.log(upperCase)
 console.log(lowerCase)
 console.log(number)
-console.log(specilal)
+console.log(special)
 
 // Write password to the #password input
 function writePassword() {
